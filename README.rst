@@ -18,11 +18,6 @@ readonly
    :target: https://circleci.com/gh/wiseaidev/readonly/tree/main
    :alt: Circle ci Build Status
 
-.. image:: https://raw.githubusercontent.com/wiseaidev/readonly/main/assets/pydoc.png
-   :target: https://github.com/wiseaidev/readonly/
-   :alt: Banner
-
-
 **readonly** is a python package that acts as an alternative to frozenset, but for dictionaries.
 
 
@@ -99,16 +94,8 @@ With :code:`pip`:
 
 .. code-block:: console
 
-   # Coming Soon!
    python3.9 -m pip install readonly
 
-With `pipx`_:
-
-.. code-block:: console
-
-   # Coming Soon!
-   python3.9 -m pip install --user pipx
-   pipx install --python python3.9 readonly
 
 🚸 Usage
 --------
@@ -116,7 +103,7 @@ With `pipx`_:
 .. code-block:: python3
 
    >>> from readonly import readonly
-   >>> from math import math
+   >>> import math
    >>> math = readonly(math)
 
    # raises AttributeError
