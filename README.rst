@@ -18,8 +18,7 @@ readonly
    :target: https://circleci.com/gh/wiseaidev/readonly/tree/main
    :alt: Circle ci Build Status
 
-**readonly** is a python package that acts as an alternative to frozenset, but for dictionaries.
-
+**readonly** is a simple package to make any given module attributes into read only mode. 
 
 🛠️ Requirements
 ---------------
